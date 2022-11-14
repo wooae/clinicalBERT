@@ -32,7 +32,7 @@ import matplotlib.pyplot as plt
 from scipy import interp
 
 from sklearn.metrics import roc_auc_score, precision_recall_curve, roc_curve, auc, confusion_matrix, classification_report
-from sklearn.utils.fixes import signature
+from funcsigs import signature
 import matplotlib.pyplot as plt
 
 import pandas as pd
